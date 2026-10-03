@@ -115,9 +115,10 @@ smart-student-attendance-management-system/
 │   ├── dao/
 │   ├── model/
 │   ├── service/
+│   ├── smartstudentattendance/
 │   ├── ui/
-│   ├── util/
-│   └── test/
+│   └── util/
+├── test/
 ├── database/
 ├── config/
 ├── lib/
