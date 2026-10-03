@@ -1,0 +1,5 @@
+# Copy this file to config/db.properties for local development.
+# Do NOT commit config/db.properties.
+DB_URL=jdbc:mysql://localhost:3306/smart_student_attendance?useSSL=false&allowPublicKeyRetrieval=true
+DB_USERNAME=root
+DB_PASSWORD=CHANGE_ME

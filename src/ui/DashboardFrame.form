@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+
+        <Group type="102" attributes="0">
+
+          <EmptySpace min="-2" pref="45" max="-2"/>
+
+          <Group type="103" groupAlignment="0" attributes="0">
+
+            <Component id="titleLabel" max="32767"/>
+            <Component id="welcomeLabel" max="32767"/>
+
+            <Group type="102">
+              <Component id="totalStudentsTitle" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="presentTodayTitle" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="absentTodayTitle" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="attendanceRateTitle" min="-2" pref="190"/>
+            </Group>
+
+            <Group type="102">
+              <Component id="totalStudentsValue" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="presentTodayValue" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="absentTodayValue" min="-2" pref="160"/>
+              <EmptySpace min="-2" pref="10"/>
+              <Component id="attendanceRateValue" min="-2" pref="190"/>
+            </Group>
+
+            <Group type="102">
+              <Component id="studentsButton" min="-2" pref="165"/>
+              <EmptySpace min="-2" pref="15"/>
+              <Component id="scanQRButton" min="-2" pref="165"/>
+              <EmptySpace min="-2" pref="15"/>
+              <Component id="attendanceButton" min="-2" pref="165"/>
+              <EmptySpace min="-2" pref="15"/>
+              <Component id="reportsButton" min="-2" pref="165"/>
+            </Group>
+
+            <Component id="logoutButton" min="-2" pref="120"/>
+
+          </Group>
+
+          <EmptySpace min="-2" pref="45" max="-2"/>
+
+        </Group>
+
+      </Group>
+    </DimensionLayout>
+
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+
+        <Group type="102" alignment="0" attributes="0">
+
+          <EmptySpace min="-2" pref="35"/>
+
+          <Component id="titleLabel" min="-2"/>
+
+          <EmptySpace min="-2" pref="10"/>
+
+          <Component id="welcomeLabel" min="-2"/>
+
+          <EmptySpace min="-2" pref="40"/>
+
+          <Group type="102">
+            <Component id="totalStudentsTitle" min="-2"/>
+            <Component id="presentTodayTitle" min="-2"/>
+            <Component id="absentTodayTitle" min="-2"/>
+            <Component id="attendanceRateTitle" min="-2"/>
+          </Group>
+
+          <EmptySpace min="-2" pref="10"/>
+
+          <Group type="102">
+            <Component id="totalStudentsValue" min="-2"/>
+            <Component id="presentTodayValue" min="-2"/>
+            <Component id="absentTodayValue" min="-2"/>
+            <Component id="attendanceRateValue" min="-2"/>
+          </Group>
+
+          <EmptySpace min="-2" pref="60"/>
+
+          <Group type="102">
+            <Component id="studentsButton" min="-2" pref="45"/>
+            <Component id="scanQRButton" min="-2" pref="45"/>
+            <Component id="attendanceButton" min="-2" pref="45"/>
+            <Component id="reportsButton" min="-2" pref="45"/>
+          </Group>
+
+          <EmptySpace min="-2" pref="35"/>
+
+          <Component id="logoutButton" min="-2" pref="35"/>
+
+          <EmptySpace pref="35" max="32767"/>
+
+        </Group>
+
+      </Group>
+    </DimensionLayout>
+  </Layout>
+
+  <SubComponents>
+
+    <Component class="javax.swing.JLabel" name="titleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="SMART STUDENT ATTENDANCE"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="welcomeLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Dashboard"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="totalStudentsTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="TOTAL STUDENTS"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="totalStudentsValue">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="28" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="presentTodayTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="PRESENT TODAY"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="presentTodayValue">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="28" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="absentTodayTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="ABSENT TODAY"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="absentTodayValue">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="28" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="attendanceRateTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="ATTENDANCE RATE"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="attendanceRateValue">
+      <Properties>
+        <Property name="font" type="java.awt.Font">
+          <Font name="Segoe UI" size="28" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="0%"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="studentsButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STUDENTS"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="scanQRButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SCAN QR"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="attendanceButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ATTENDANCE"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="reportsButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REPORTS"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="logoutButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LOGOUT"/>
+      </Properties>
+    </Component>
+
+  </SubComponents>
+
+</Form>
