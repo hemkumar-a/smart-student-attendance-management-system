@@ -1,0 +1,18 @@
+# Local database credentials
+config/db.properties
+config/dp.properties
+
+# NetBeans private metadata
+nbproject/private/
+
+# Build artifacts
+build/
+dist/
+nbbuild/
+nbdist/
+*.class
+
+# Generated/local runtime files
+student-qr.png
+*.log
+qrCodes/
