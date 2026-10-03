@@ -26,7 +26,7 @@ Academic Calendar Support
 
 ## Features
 
-- Secure login with hashed passwords
+- Login authentication with SHA-256 password hashing
 - Student registration and CRUD management
 - QR-code generation for students
 - Webcam-based QR scanning
@@ -38,7 +38,7 @@ Academic Calendar Support
 - Individual student attendance reports
 - Academic calendar management for working/non-working days
 - MySQL database with relational student/attendance/calendar data
-- Automated test classes for attendance, QR, camera, calendar, and analytics components
+- Test and demonstration classes covering attendance, QR, camera, calendar, and analytics components
 
 ## Technology Stack
 
@@ -154,6 +154,7 @@ A NetBeans-generated Ant build is included. Use the generated build targets from
 ## Configuration and Security
 
 This repository does **not** contain production credentials or a ready-to-use local database configuration. Database credentials are supplied through `config/db.properties` or environment variables.
+Passwords are currently hashed with SHA-256 for this educational project. A production authentication system should use a password-specific hashing algorithm such as PBKDF2, bcrypt, or Argon2 with appropriate parameters.
 
 Do not commit:
 
@@ -165,15 +166,17 @@ Do not commit:
 
 ## Testing
 
-The source contains test classes covering areas including:
+The repository includes Java test and demonstration classes covering areas including:
 
 - Attendance behavior
 - Attendance history
 - Attendance services
-- QR generation/scanning
+- QR generation and scanning
 - Camera initialization
 - Academic calendar behavior
 - Analytics calculations
+
+These classes are currently implemented as executable Java test/demo programs rather than a JUnit-based automated test suite.
 
 ## Project Highlights
 
